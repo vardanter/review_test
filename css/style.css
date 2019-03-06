@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: Verdana;
+    font-size: 16px;
+}
+ul {
+    list-style: none;
+}
+
+header {
+    padding: 15px 0;
+    margin-bottom: 15px;
+    line-height: 2rem;
+    background: #87b5cc;
+}
+
+.block-title {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.container {
+    position: relative;
+    min-height: 100%;
+}
+
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+}
+
+.in-row {
+    flex-direction: row;
+}
+
+.block-alert {
+    margin: 10px 0;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+
+.block-alert.success {
+    background-color: #b3f7f7;
+    color: darkgreen;
+}
+
+.block-alert.error {
+    background-color: lightpink;
+    color: darkred;
+}
+
+.block-row {
+    width: 100%;
+}
+
+.form-label {
+    color: #0b2c4f;
+}
+
+.form-element {
+    margin: 5px 0;
+}
+
+.form-input {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    padding: 8px 5px;
+}
+
+.button {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #F0F8FF;
+    padding: 8px 10px;
+    font-size: 0.9rem;
+}
+.button-primary {
+    border: 1px solid #1e7aba;
+    background-color: #2678a8;
+    color: #ffffff;
+}
+
+.review-list-item {
+    background-color: aliceblue;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px transparent;
+    transition: box-shadow .3s;
+}
+
+.review-list-item:hover {
+    box-shadow: 0px 0px 3px rgba(30, 122, 186, 0.8);
+}
+
+.review-list-item .block-row {
+    display: flex;
+    font-size: 0.9rem;
+}
+
+.block-row-col {
+    flex: 1;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.review-content {
+    margin: 10px 0;
+}
+
+.review-name {
+    font-size: 1.2rem;
+    color: #2678a8;
+}
+
+.review-date {
+    font-style: italic;
+    color: #666666;
+}
+
+.review-email {
+    color: #2678a8;
+}
+
+.col {
+    flex: 1;
+}
